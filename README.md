@@ -27,7 +27,7 @@ Esta aplicación permite gestionar y visualizar contratos en Colombia. Proporcio
     ```
 4. Instala las dependencias de Laravel Native:
     ```bash
-    npm install
+    npm install && npm run build
     ```
 5. Configura el archivo `.env`:
     ```bash
