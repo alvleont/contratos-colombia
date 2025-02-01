@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: linear-gradient(
+        45deg,
+        #AAAAAA 0%,
+        #ABABAB 33.33%,
+        #CACACA 33.33%,
+        #DADADA 66.66%,
+        #FAFAFA 66.66%,
+        #F0F0F0 100%
+    );
+    background-size: 300% 300%;
+    animation: waveFlag 15s ease-in-out infinite;
+}
+
+@keyframes waveFlag {
+    0% {
+        background-position: 0% 25%;
+    }
+    25% {
+        background-position: 50% 50%;
+    }
+    50% {
+        background-position: 100% 75%;
+    }
+    75% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 25%;
+    }
+}
